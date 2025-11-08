@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control Lumina" />
+
+        <CheckBox
+            android:id="@+id/checkboxLightAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mod Auto Lumină"
+            android:paddingStart="32dp"
+            android:paddingTop="4dp"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchWindow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control Geam" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchBlinds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control Jaluzele" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchHeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heat On/Off" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchAC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AC On/Off" />
+
+        <TextView
+            android:id="@+id/textSensorData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Temp: -- °C | Hum: -- %"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textFloodMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Stare inundație: --"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <!-- Status ușă/intruziune -->
+        <TextView
+            android:id="@+id/textDoorStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Stare ușă: --"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editOpenTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ora Ridicare (ex: 07:00)" />
+
+        <EditText
+            android:id="@+id/editCloseTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ora Coborâre (ex: 20:00)" />
+
+        <Button
+            android:id="@+id/btnSaveTimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvează Orele" />
+
+        <!-- - Setări climatizare dorită - -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Temperatură dorită (°C)"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editDesiredTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: 22.5"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Umiditate dorită (%)"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editDesiredHum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: 55.0"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/btnSaveDesired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Salvează setări climatizare"/>
+
+        <!-- Switch pentru modul automat climatizare -->
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchAutoClimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Mod automat climatizare"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setează locația casei"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editHomeLat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Latitudine casă (ex: 44.4325)"/>
+
+        <EditText
+            android:id="@+id/editHomeLng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Longitudine casă (ex: 26.1039)"/>
+
+        <Button
+            android:id="@+id/btnSaveHomeLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvează casa"/>
+
+        <!-- Aici vom afișa distanța -->
+        <TextView
+            android:id="@+id/textDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Distanță până acasă: –"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</ScrollView>

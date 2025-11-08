@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SmartHomeApp</string>
+    <string name="led_switch_label">LED On/Off</string>
+</resources>

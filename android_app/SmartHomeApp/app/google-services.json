@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "REDACTED_PROJECT_NUMBER",
+    "firebase_url": "https://REDACTED.firebaseio.com",
+    "project_id": "REDACTED_PROJECT_ID",
+    "storage_bucket": "REDACTED.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "REDACTED_SDK_ID",
+        "android_client_info": {
+          "package_name": "com.example.smarthomeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "REDACTED_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
