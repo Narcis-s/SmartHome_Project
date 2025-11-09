@@ -70,6 +70,41 @@ The mobile app allows users to remotely control devices such as the AC, the heat
 
 ---
 
+## 📸 Project Demo
+
+Below are photos showcasing the prototype and main functionalities of the system:
+
+**Power Supply**
+![Power Supply](docs/images/power_supply.jpg)
+
+**Flood Detection and Valve Control**
+Automatically closes the solenoid valve when water is detected.
+![Flood Detection](docs/images/electrovalve.jpg)
+
+**Rain Detector**
+Automatically closes the window in case of rain.
+![Rain Sensor](docs/images/rain_detector.jpg)
+
+**Temperature & Humidity Control**
+Activates the fan or heating system based on sensor thresholds.
+![Temperature Control](docs/images/temperature_control.jpg)
+
+**Motion Detection with LED Control**
+Detects movement and adjusts LED brightness via PWM.
+![Motion LED](docs/images/light_control.jpg)
+
+**Automate Blinds**
+Open/Close the blinds based on android app signal.
+![Motion LED](docs/images/temp_sensor+blinds.jpg)
+
+**Android App Interface**
+Custom-built Android app for real-time monitoring and manual control via Firebase.
+![Android App](docs/images/android_app.jpg)
+
+*Full video demonstration available upon request or upcoming on YouTube.*
+
+---
+
 ## ⚡ How to Run
 
 1. Clone the repository
