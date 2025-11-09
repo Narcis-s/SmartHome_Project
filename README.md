@@ -74,32 +74,32 @@ The mobile app allows users to remotely control devices such as the AC, the heat
 
 Below are photos showcasing the prototype and main functionalities of the system:
 
-**Power Supply**
-![Power Supply](docs/images/power_supply.jpg)
+**Power Supply**<br>
+<img src="docs/images/power_supply.jpg" height="300"/>
 
-**Flood Detection and Valve Control**
-Automatically closes the solenoid valve when water is detected.
-![Flood Detection](docs/images/electrovalve.jpg)
+**Flood Detection and Valve Control**<br>
+Automatically closes the solenoid valve when water is detected.<br>
+<img src="docs/images/electrovalve.jpg" height="300"/>
 
-**Rain Detector**
-Automatically closes the window in case of rain.
-![Rain Sensor](docs/images/rain_detector.jpg)
+**Rain Detector**<br>
+Automatically closes the window in case of rain.<br>
+<img src="docs/images/rain_detector.jpg" height="300"/>
 
-**Temperature & Humidity Control**
-Activates the fan or heating system based on sensor thresholds.
-![Temperature Control](docs/images/temperature_control.jpg)
+**Temperature & Humidity Control**<br>
+Activates the fan or heating system based on sensor thresholds.<br>
+<img src="docs/images/temperature_control.jpg" height="300"/>
 
-**Motion Detection with LED Control**
-Detects movement and adjusts LED brightness via PWM.
-![Motion LED](docs/images/light_control.jpg)
+**Motion Detection with LED Control**<br>
+Detects movement and adjusts LED brightness via PWM.<br>
+<img src="docs/images/light_control.jpg" height="300"/>
 
-**Automate Blinds**
-Open/Close the blinds based on android app signal.
-![Motion LED](docs/images/temp_sensor+blinds.jpg)
+**Automate Blinds**<br>
+Open/Close the blinds based on android app signal.<br>
+<img src="docs/images/temp_sensor+blinds.jpg" height="300"/>
 
-**Android App Interface**
-Custom-built Android app for real-time monitoring and manual control via Firebase.
-![Android App](docs/images/android_app.jpg)
+**Android App Interface**<br>
+Custom-built Android app for real-time monitoring and manual control via Firebase.<br>
+<img src="docs/images/android_app.jpg" height="500"/>
 
 *Full video demonstration available upon request or upcoming on YouTube.*
 
